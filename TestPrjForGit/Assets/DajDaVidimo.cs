@@ -8,11 +8,26 @@ public class DajDaVidimo : MonoBehaviour {
 	void Start () {
 		
 	}
+
+	float step = 2f;
+	float t = 0;
+	float tt = 0;
 	
 	// Update is called once per frame
 	void Update () {
 
-
-		transform.Rotate (new Vector3 (10, 0, 0), Space.Self);
+		tt += Time.deltaTime;
+		if (tt < step)
+		{
+			transform.Rotate (new Vector3 (10, 0, 0), Space.Self);
+		}
+		else if (tt > (2 * step))
+		{
+			tt = 0;
+		}
+		else
+		{
+			transform.Rotate (new Vector3 (0, 10, 0), Space.Self);
+		}
 	}
 }
