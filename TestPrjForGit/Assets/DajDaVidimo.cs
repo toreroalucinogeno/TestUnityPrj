@@ -40,5 +40,7 @@ public class DajDaVidimo : MonoBehaviour {
 		{
 			transform.Rotate (new Vector3 (5, 10, 5), Space.Self);
 		}
+
+		Debug.Log ("Ponovni push test");
 	}
 }
