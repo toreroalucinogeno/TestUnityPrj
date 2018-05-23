@@ -6,6 +6,8 @@ public class DajDaVidimo : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+
+
 		
 	}
 
@@ -21,7 +23,7 @@ public class DajDaVidimo : MonoBehaviour {
 		tt += Time.deltaTime;
 		if (tt < step)
 		{
-			transform.Rotate (new Vector3 (10, 0, 0), Space.Self);
+			transform.Rotate (new Vector3 (10, 5, 5), Space.Self);
 		}
 		else if (tt > (2 * step))
 		{
@@ -29,7 +31,7 @@ public class DajDaVidimo : MonoBehaviour {
 		}
 		else
 		{
-			transform.Rotate (new Vector3 (0, 10, 0), Space.Self);
+			transform.Rotate (new Vector3 (5, 10, 5), Space.Self);
 		}
 	}
 }
