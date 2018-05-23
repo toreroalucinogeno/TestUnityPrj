@@ -19,7 +19,9 @@ public class DajDaVidimo : MonoBehaviour {
 	void Update () {
 
 
+
 		Debug.Log("@Uloszaminje linija");
+
 
 		Debug.Log ("svejedno");
 
