@@ -18,6 +18,7 @@ public class DajDaVidimo : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+<<<<<<< HEAD
 
 		Debug.Log("@Uloszaminje linija 3");
 
@@ -26,6 +27,8 @@ public class DajDaVidimo : MonoBehaviour {
 		Debug.Log("@Uloszaminje linija");
 
 
+=======
+>>>>>>> parent of 818aa79... izmena linija 3
 		Debug.Log("@Uloszaminje linija");
 
 		Debug.Log ("svejedno");
