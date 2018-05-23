@@ -18,7 +18,12 @@ public class DajDaVidimo : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+
 		Debug.Log("@Uloszaminje linija 3");
+
+
+
+		Debug.Log("@Uloszaminje linija");
 
 
 		Debug.Log("@Uloszaminje linija");
@@ -40,5 +45,7 @@ public class DajDaVidimo : MonoBehaviour {
 		{
 			transform.Rotate (new Vector3 (5, 10, 5), Space.Self);
 		}
+
+		Debug.Log ("Ponovni push test");
 	}
 }
