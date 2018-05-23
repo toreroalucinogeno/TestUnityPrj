@@ -1,0 +1,19 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:c581c11b04dc4d502aed44a4e3fb31ac:b13f428c10dd301b492a2ad705ae5871:e22c827015e261d3de9987d512febc6e$
+#
+:format=40300
+:texture=testatlas.png
+:size=1024x1024
+:pivotpoints=enabled
+:borders=disabled
+
+line;0;365;143;143; 0.5;0.5; 0;0;0;0; 4;143;0;0;0;0;143;143;143; 2;1;2;3;0;1;3
+paw;363;430;67;78; 0.5;0.5; 0;0;0;0; 5;67;19;42;0;0;0;0;78;67;78; 3;0;3;4;1;2;3;0;1;3
+shopping_cart;0;512;512;512; 0.5;0.5; 0;0;0;0; 4;512;0;0;0;0;512;512;512; 2;1;2;3;0;1;3
+viber;147;401;107;107; 0.5;0.5; 0;0;0;0; 8;107;62;103;21;34;0;27;0;2;37;0;101;32;107;102;107; 6;0;2;4;4;5;6;4;2;3;4;6;0;0;1;2;0;6;7
+youtube;258;437;101;71; 0.5;0.5; 0;0;0;0; 4;101;0;0;0;0;71;101;71; 2;1;2;3;0;1;3
