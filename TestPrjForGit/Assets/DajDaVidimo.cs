@@ -18,6 +18,9 @@ public class DajDaVidimo : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+
+		Debug.Log("@Uloszaminje linija");
+
 		Debug.Log ("svejedno");
 
 		Debug.LogError ("aaaaaaaaaa update-u");
