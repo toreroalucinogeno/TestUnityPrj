@@ -16,6 +16,8 @@ public class DajDaVidimo : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+		Debug.LogError ("Ovo se ne sme raditi u update-u");
+
 		tt += Time.deltaTime;
 		if (tt < step)
 		{
