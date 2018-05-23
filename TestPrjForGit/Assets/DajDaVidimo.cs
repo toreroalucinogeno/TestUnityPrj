@@ -20,7 +20,7 @@ public class DajDaVidimo : MonoBehaviour {
 
 		Debug.Log ("svejedno");
 
-		Debug.LogError ("Ovo se ne sme raditi u update-u");
+		Debug.LogError ("aaaaaaaaaa update-u");
 
 		tt += Time.deltaTime;
 		if (tt < step)
